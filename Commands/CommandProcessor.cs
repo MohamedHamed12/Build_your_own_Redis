@@ -14,7 +14,7 @@ namespace RedisServerApp.Core
             return command.ToLower() switch
             {
                 var cmd when cmd.StartsWith("ping") => new PingCommand(),
-                // var cmd when cmd.StartsWith("echo") => new EchoCommand(),
+                var cmd when cmd.StartsWith("echo") => new EchoCommand(),
                 var cmd when cmd.StartsWith("set") => new SetCommand(_db),
                 var cmd when cmd.StartsWith("get") => new GetCommand(_db),
                 _ => throw new ArgumentException($"Unknown command: {command}"),

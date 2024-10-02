@@ -69,7 +69,8 @@ This project is a simple Redis-like in-memory key-value store implemented using 
     - **GET command**: Retrieves the value of a key.
 
           redis> get mykey
-          $5 hello
+          $5
+          hello
  
 
 ## Architecture

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PWkyv0bZc88vHXZcJKGzxax0tuM1sAhM8m4blpEK1wdBTfkCuZPbieBYNxLGa/2X1tZJ6q4QvU0xhVe9RPNEow==",
+  "success": true,
+  "projectFilePath": "/root/dotnet/codecraft/RedisServerApp/RedisServerApp.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime.caching/8.0.0/system.runtime.caching.8.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
